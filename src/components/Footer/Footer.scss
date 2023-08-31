@@ -1,0 +1,55 @@
+.footer{
+    margin-top: 160px;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: space-between;
+    img {
+        width: 150px;
+        height: 90px;
+    }
+    .socialMedia{
+        display: flex;
+        gap: 60px;
+        img{
+            width: 25px;
+            height: 25px;
+        }
+    }
+    p{
+        font-weight: 400;
+        font-size: 1rem;
+        color: #979797;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .footerNavLink{
+        display: flex;
+        gap: 60px;
+        margin-right: 100px;
+        p{
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #000E0C;
+            margin-top: -40px;
+        }
+        .footer_aboutLink{
+            display: flex;
+            flex-direction: column;
+            a{
+                color: #979797;
+                text-decoration: none;
+                line-height: 2.5rem;
+            }
+        }
+        .footer_productLink{
+            display: flex;
+            flex-direction: column;
+            a{
+                color: #979797;
+                text-decoration: none;
+                line-height: 2.5rem;
+            }
+        }
+    }
+}

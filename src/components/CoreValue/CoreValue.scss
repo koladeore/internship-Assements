@@ -1,0 +1,44 @@
+.coreValue_Header{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h1{
+        font-size: 2.3rem;
+        line-height: 1.3;
+        font-weight: 600;
+        color: #4F4F4F;
+    }
+    h4{
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #4F4F4F;
+    }
+}
+.coreValue_Content{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 60px;
+    gap: 20px;
+}
+.coreValue_Content_item{
+    border: 1px solid #D3EACA;
+    border-radius: 8px;
+    width: 370px;
+    height: 390px;
+    padding-left: 20px;
+    img{
+        margin-top: 80px;
+    }
+    h4{
+        font-size: 1.5rem;
+        color: #4F4F4F;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    p{
+        font-size: 1.3rem;
+        color: #4F4F4F;
+    }
+}
